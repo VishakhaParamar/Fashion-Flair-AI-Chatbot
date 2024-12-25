@@ -1,0 +1,166 @@
+* {
+  font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  height: 100%;
+  overflow: hidden;
+  background-color: #83c5be;
+  color: #000000;
+}
+
+/* Chat Container */
+.chat-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  background-color: #83c5be;
+  position: relative;
+}
+
+/* Predefined Questions */
+.predefined-questions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 18px;
+  padding: 10px;
+  background-color: transparent;
+  justify-content: center;
+  border-bottom: 2px solid #ddd;
+}
+
+.question-btn {
+  padding: 12px 18px;
+  border: none;
+  border-radius: 5px;
+  background-color: #006d77;
+  color: white;
+  cursor: pointer;
+  font-size: 15px;
+  border: solid 2px #edf6f9;
+  transition: 0.4s;
+}
+
+.question-btn:hover {
+  transform: scale(1.1);
+  background-color: #04484e;
+}
+
+/* Chat Header */
+.chat-header {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px;
+  background-color: #83c5be;
+  color: #000000;
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: bold;
+  border-bottom: 2px solid #ddd;
+  padding-left: 20px;
+  padding-right: 30px;
+}
+#botImg{
+  height: 100px;
+  width: auto;
+  transition: 0.4s;
+}
+#botImg:hover{
+  transform: scale(1.2);
+}
+#userLogo{
+  margin-top: 15px;
+  height: 60px;
+  width: auto;
+  transition: 0.4s;
+  border-radius: 50%;
+  border: solid 2px black;
+}
+#userLogo:hover{
+  transform: scale(1.2);
+}
+
+/* Messages Section */
+.messages {
+  flex: 1;
+  overflow-y: auto;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  background-color: #83c5be;
+  background-image: url("https://res.cloudinary.com/drp10qxxj/image/upload/v1735138862/fashionFlairbg_pgkvcl.jpg");
+  background-blend-mode:luminosity;
+
+}
+
+.message {
+  padding: 10px 15px;
+  border-radius: 15px;
+  max-width: 70%;
+  font-size: 1rem;
+  line-height: 1.5;
+  word-wrap: break-word;
+  white-space: pre-wrap;
+  box-sizing: border-box;
+}
+
+.message.user {
+  background-color: #ffffff;
+  color: #000000;
+  align-self: flex-end;
+  text-align: right;
+  border: solid 2px #000000;
+}
+
+.message.bot {
+  background-color: #ffffff;
+  color: #000000;
+  align-self: flex-start;
+  text-align: left;
+  border: solid 2px #000000;
+}
+
+/* Input Section */
+.input-container {
+  display: flex;
+  padding: 10px;
+  background-color: #83c5be;
+}
+
+#star {
+  height: 50px;
+  width: auto;
+  filter: saturate(00%) hue-rotate(325deg);
+}
+
+#user-input {
+  flex: 1;
+  padding: 15px;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  border-radius: 5px;
+  background: transparent;
+  color: #000000;
+}
+
+#send-btn {
+  margin-left: 10px;
+  padding: 10px 42px;
+  background-color: #006d77;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 17px;
+  border: solid 2px #edf6f9;
+}
+
+#send-btn:hover {
+  background-color: #05454b;
+}
