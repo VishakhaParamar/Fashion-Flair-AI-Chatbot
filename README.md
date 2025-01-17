@@ -2,6 +2,8 @@
 
 Fashion Flair AI is a chatbot application designed to provide users with style tips, fashion trends, outfit suggestions, and other fashion-related advice. The chatbot leverages Google’s Gemini generative AI model to deliver intelligent and interactive responses to user queries.
 
+![Chatbot UI](chatbot-ui.png)
+
 ## Features
 - **Latest Fashion Trends**: Get insights into current fashion trends.
 - **Color Advice**: Learn about seasonal color palettes.
