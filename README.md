@@ -26,7 +26,7 @@ Fashion Flair AI is a chatbot application designed to provide users with style t
 ### Steps to Set Up
 1. Clone the repository:
    ```bash
-   git clone <https://github.com/VishakhaMP/Fashion Flair AI Chatbot/>
+   git clone <https://github.com/VishakhaParmar/Fashion Flair AI Chatbot/>
    cd <Fashion Flair AI Chatbot>
    ```
 
